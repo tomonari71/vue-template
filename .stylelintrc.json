@@ -1,0 +1,10 @@
+{
+  "rules": {
+    "indentation": 2,
+    "color-no-invalid-hex": true,
+    "function-comma-space-after": "always-single-line",
+    "function-comma-space-before": "never",
+    "number-leading-zero": "never",
+    "unit-case": "lower",
+  }
+}
