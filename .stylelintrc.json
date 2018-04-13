@@ -1,10 +1,28 @@
 {
   "rules": {
+    //インデントはスペース2つ
     "indentation": 2,
+    //値が0の場合は単位をつけない
+    "length-zero-no-unit": true,
+    //カンマの後は必ずスペースを入れる
+    "value-list-comma-space-after": "always",
+    //色コードがおかしい場合に警告
     "color-no-invalid-hex": true,
-    "function-comma-space-after": "always-single-line",
-    "function-comma-space-before": "never",
+    //数字の前に0をつけない
     "number-leading-zero": "never",
+    //px等の単位は小文字
     "unit-case": "lower",
+    //「{」の後は必ず改行
+    "block-opening-brace-newline-after": "always",
+    //「}」の前は必ず改行
+    "block-closing-brace-newline-before": "always",
+    //「{」の前に必ずスペース
+    "block-opening-brace-space-before": "always",
+    //プロパティの重複を警告（「display」が2個あるとか）
+    "declaration-block-no-duplicate-properties": true,
+    //カラーコードを省略できるときは省略する #fff #000
+    "color-hex-length": "short",
+    //16進数のカラーコードは小文字
+    "color-hex-case": "lower"
   }
 }
